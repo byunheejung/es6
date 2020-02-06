@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add postcss-loader
+
+PATH: 
+  /Users/byunheejung/development/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/byunheejung/development/flutter/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  11.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/postcss-loader: Request "https://registry.yarnpkg.com/postcss-loader" returned a 403
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66984:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140727:22)
+      at Request.emit (events.js:193:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141699:10)
+      at Request.emit (events.js:193:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141621:12)
+      at Object.onceWrapper (events.js:281:20)
+      at IncomingMessage.emit (events.js:198:15)
+      at endReadableNT (_stream_readable.js:1139:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:17)
+
+npm manifest: 
+  {
+    "name": "es6",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/byunheejung/es6.git",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

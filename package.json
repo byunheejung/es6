@@ -1,0 +1,11 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/byunheejung/es6.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4"
+  }
+}
